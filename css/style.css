@@ -1,0 +1,22 @@
+body{
+    background-color:darkkhaki;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+    background-color: darkgoldenrod;
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+form{
+    padding:20px 0px 0px 50px ;
+}
+
+.galeria{
+    display: inline;
+    width: 300px;
+}
