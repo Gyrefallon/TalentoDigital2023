@@ -1,15 +1,12 @@
-body{
-    background-color:darkkhaki;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-footer{
-    background-color: darkgoldenrod;
+.navb{
+    background-color:rgb(28, 150, 54);
+    
 }
 .img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    
 }
 
 form{
@@ -19,4 +16,12 @@ form{
 .galeria{
     display: inline;
     width: 300px;
+}
+
+footer{
+    background-color: rgb(10, 120, 88);
+    padding: 1em 0;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
 }
