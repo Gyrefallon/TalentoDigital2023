@@ -15,7 +15,7 @@
     <nav class="navbar navbar-expand-lg navb" >
         <div class="container-fluid">
             <div class="navbar-brand d-sm-block d-md-none">
-                <img class="rounded" style="width: 45px" src="../img/icon/logo.png">
+                <img class="rounded" style="width: 70px" src="../img/icon/logo.png">
               </div>
           <a class="navbar-brand d-none d-sm-none d-md-block" href="#">Cachureando</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,6 @@
                 <a class="nav-link active" href="../index.html">Inicio
                     <span><img src="../img/icon/casa.png" alt="" style="width: 15px; vertical-align: 0.1px;"></span>
                   <span class="visually-hidden">(current)</span>
-                  
                 </a>
               </li>
               <li class="nav-item">
@@ -49,13 +48,25 @@
         </div>
       </nav>
 
-    <form action="">
-        <h3>Formulario de Contacto</h3>
-        <input type="text" placeholder="Nombre"><br>
-        <input type="email" placeholder="Mail"><br>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" style="resize: none;"></textarea><br>
-        <button type="submit">Enviar</button>
-        <button type="reset">Borrar todo</button>
-    </form>
+      <div class="container mt-5">
+        <h2>Envianos tus dudas o consultas aquí!</h2>
+        <form action="" class="row g-3" style="margin-right: 0px;">
+          <div class="col-md-6">
+            <label for="Nombre" class="form-label">Tu nombre</label>
+            <input type="text" class="form-control" id="Nombre" required>
+          </div>
+          <div class="col-md-6">
+            <label for="Email" class="form-label">Tu E-mail</label>
+            <input type="email" class="form-control" id="Email" required>
+          </div>
+          <div class="col-md-12">
+            <label for="Comentarios" class="form-label">Tu mensaje</label>
+            <textarea name="" id="Comentarios"  rows="5" class="form-control" required></textarea>
+          </div>
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-outline-success" data-mdb-ripple-color="dark">Enviar</button>
+          </div>
+        </form>
+      </div>
 </body>
 </html>
