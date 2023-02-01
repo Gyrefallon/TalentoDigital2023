@@ -17,7 +17,12 @@ form{
     display: inline;
     width: 300px;
 }
-
+foot{
+    background-color: aqua;
+    bottom: 0;
+    padding-left: 2em;
+    padding-right: 2em;
+}
 footer{
     background-color: rgb(10, 120, 88);
     padding: 1em 0;
@@ -25,6 +30,7 @@ footer{
     bottom: 0;
     width: 100%;
 }
+
 .card-esp{
     margin-bottom: 5px;
 }
