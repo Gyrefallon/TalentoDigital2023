@@ -34,3 +34,9 @@ footer{
 .card-esp{
     margin-bottom: 5px;
 }
+#caja{
+    border-radius: 12px;
+}
+body{
+    padding-bottom: 220px;
+}

@@ -49,53 +49,72 @@
           </div>
         </div>
       </nav>
-
+    <!--inicio de carrito compra-->
+      
     <h1>Galeria de productos</h1>
 <div class="container">
     <div class="row">
-        <div class="col-md-3">
-            <div class="card card-esp">
+        <div class="col-md-3 ">
+            <div class="card card-esp products">
                 <img src="../img/gallery/bottles.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <p class="card-text">2.000</p>
+                  <a href="#" class="btn btn-primary" data-id="1" data-price="2000" data-title="Product one">Go somewhere</a>
                 </div>
               </div>
         </div>
         <div class="col-md-3">
-            <div class="card card-esp">
+            <div class="card card-esp products">
                 <img src="../img/gallery/cómo-crear-macetas-recicladas-y-decorar-tu-patio.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <p class="card-text">3.000</p>
+                  <a href="#" class="btn btn-primary" data-id="2" data-price="3000" data-title="Product two">Go somewhere</a>
                 </div>
               </div>
         </div>
         <div class="col-md-3">
-            <div class="card card-esp">
+            <div class="card card-esp products">
                 <img src="../img/gallery/descarga.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <p class="card-text">4.000</p>
+                  <a href="#" class="btn btn-primary" data-id="3" data-price="4000" data-title="Product three">Go somewhere</a>
                 </div>
               </div>
         </div>
         <div class="col-md-3">
-        <div class="card card-esp">
+        <div class="card card-esp products">
           <img src="../img/gallery/qqqhcer.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <p class="card-text">5.000</p>
+            <a href="#" class="btn btn-primary" data-id="4" data-price="5000" data-title="Product four">Go somewhere</a>
           </div>
         </div>
       </div>
       </div>
     </div>
-    <footer class="bg-dark text-center text-white">
+    <div class="row justify-content-center mt-2">
+      <div class="col-sm-2 mb-3 mb-sm-0">
+        <div class="card bg-dark text-white text-center">
+          <div class="card-body">
+          <p class="fw-bold">N° articulos</p>
+          <span id="count">0</span>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-2">
+      <div class="card bg-dark text-white text-center">
+        <div class="card-body">
+          <p class="fw-bold">Valor total</p>
+          <span id="sum">0</span>
+        </div>
+      </div>
+    </div>
+  </div>
+    <footer class="bg-dark text-center text-white fixed-bottom">
       <!-- Grid container -->
       <div class="container p-4 pb-0">
         <!-- Section: Social media -->
@@ -141,6 +160,6 @@
       </div>
       <!-- Copyright -->
     </footer>
-
+<script src="/js/main.js"></script>
 </body>
 </html>
