@@ -140,3 +140,51 @@ form.estrellas{
 textarea{
   resize: none;
 }
+
+.comentario{
+  background-color: rgba(255,255,255,0.7) ;
+  height: 20px;
+  width: 500px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 0 0 20px;
+  color: black;
+}
+
+.input-com{
+  height: 25px;
+  display: flex;
+  flex-direction: column;}
+
+#nuevocomentario{
+  outline: none;
+  border: 0;
+  width: 100px;
+  height: 50px;
+  padding: 0px 10px 0px 10px;
+  font-size: 15px;
+  background-color: transparent;
+  color: black;
+  border-bottom: 2px solid rgba(255,255,255,0);
+  transition-duration: 200ms;
+}
+
+#nuevocometario::placeholder{
+  color:black;
+}
+#nuevocomentario:focus{
+  border-bottom: 2px solid red;
+}
+
+.close{
+  font-size: 16px;
+  width: 100px;
+  margin-left: 15px;
+  margin-top: 15px;
+  z-index: 20;
+  transition-duration: 200ms;
+  display: block;
+  cursor: pointer;
+  color:red;
+}

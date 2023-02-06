@@ -15,7 +15,7 @@
     <script src="https://kit.fontawesome.com/cadd79f153.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-    <script src="../js/main.js"></script>
+    <script src="../../js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -52,9 +52,7 @@
       </div>
     </div>
   </nav>
-</head>
 
-    
 
 <div class="container-fluid">
       <div class="row">
@@ -67,21 +65,28 @@
             <div class="col-9 d-none d-sm-none d-md-block">
               <div class="Comentarios"></div>
                     <h6><b>Comentarios</b></h6><hr>
-                      <form class="estrellas">
-                        Escribe un comentario...
-                        <p class="clasificacion">
-                          <input id="radio1" type="radio" name="estrellas" value="5">
-                          <label for="radio1">★</label>
-                          <input id="radio2" type="radio" name="estrellas" value="4">
-                          <label for="radio2">★</label>
-                          <input id="radio3" type="radio" name="estrellas" value="3">
-                          <label for="radio3">★</label>
-                          <input id="radio4" type="radio" name="estrellas" value="2">
-                          <label for="radio4">★</label>
-                          <input id="radio5" type="radio" name="estrellas" value="1">
-                          <label for="radio5">★</label>
-                        </p>
-                      </form> 
+                    <div class="input-com">
+                      <input type="text" id="nuevocomentario" placeholder="Escribe un comentario.....">
+                      <div>
+                        <button onclick="nComentario()" class="btn btn-outline-success">Comentar</button>
+                      </div>
+                    </div>
+                    <form class="estrellas">
+                      <p class="clasificacion">
+                        <input id="radio1" type="radio" name="estrellas" value="5">
+                        <label for="radio1">★</label>
+                        <input id="radio2" type="radio" name="estrellas" value="4">
+                        <label for="radio2">★</label>
+                        <input id="radio3" type="radio" name="estrellas" value="3">
+                        <label for="radio3">★</label>
+                        <input id="radio4" type="radio" name="estrellas" value="2">
+                        <label for="radio4">★</label>
+                        <input id="radio5" type="radio" name="estrellas" value="1">
+                        <label for="radio5">★</label>
+                      </p>
+                    </form>
+                  <ul id="comentarios">
+                  </ul>
               </div>
             </div>
           </div>
@@ -194,10 +199,7 @@
             </div>
         </div>
     </div>
-</div>
-    
 
-</div>      
 <footer class="bg-dark text-center text-white">
   <!-- Grid container -->
   <div class="container p-4 pb-0">

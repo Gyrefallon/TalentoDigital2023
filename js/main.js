@@ -28,19 +28,47 @@ function numero(numeros){
         valueInput.innerText = "Excelente";
     };}
     
+function nComentario(){
+    let li = document.createElement("li");
+    let valorIngresado = document.getElementById("nuevocomentario").value;
+    let text = document.createTextNode(valorIngresado);
+    li.appendChild(text);
 
-$( function() {
-        $( "#slider-range" ).slider({
-          range: true,
-          min: 1000,
-          max: 100000,
-          step: 1000,
-          values: [ 1000, 3000 ],
-          slide: function( event, ui ) {
-            $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
-          }
-        });
-        $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
-          " - $" + $( "#slider-range" ).slider( "values", 1 ) );
-      } );
+    if(valorIngresado === ''){
+        alert("Ingrese un comentario!")
+    } else {
+        document.getElementById("comentarios").appendChild(li);
+    }
+    document.getElementById("nuevocomentario").value = "";
+    li.className = "comentario";
 
+    let borrar = document.createElement("p")
+    borrar.innerHTML = ("Borrar");
+    borrar.className = "close";
+    li.appendChild(borrar);
+
+    let close = document.getElementsByClassName("close");
+    let i;
+    for (i= 0; i < close.length; i++){
+        close[i].onclick = function(){
+            let div = this.parentElement;
+            div.style.display = "none";
+        }
+    }
+}
+
+///
+///$( function() {
+//     $( "#slider-range" ).slider({
+//       range: true,
+//       min: 1000,
+//       max: 100000,
+//       step: 1000,
+//       values: [ 1000, 3000 ],
+//       slide: function( event, ui ) {
+//         $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+//       }
+//     });
+//     $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
+//       " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+//   } );
