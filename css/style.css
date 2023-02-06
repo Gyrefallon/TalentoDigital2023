@@ -18,12 +18,7 @@ form{
     display: inline;
     width: 300px;
 }
-foot{
-    background-color: aqua;
-    bottom: 0;
-    padding-left: 2em;
-    padding-right: 2em;
-}
+
 footer{
     background-color: rgb(10, 120, 88);
     padding: 1em 0;
@@ -44,3 +39,109 @@ h1.titulogaleria{
     
 }
 
+.card{
+    
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 1.5em;
+
+
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.button {
+    width: 120px; /* set a width so it doesnt change upon hover */
+    height: 40px;
+    border: 0px solid #004B84;
+    background: #f6931f;
+    padding: 3px 21px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: Questrial;
+    text-decoration: none;
+    vertical-align: middle;
+    letter-spacing: 2px;
+  }
+  
+  .button:hover span {
+    display:none;
+  }
+  
+  .button:hover:before {
+    content:"Agregar carrito";
+  }
+  
+  .button:hover {
+    background-color: #f6931f;
+  }
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.imagenproducto{
+
+    
+    padding: 40px 10px 20px 10px;
+
+}
+
+.rowespecificaciones{
+
+    background-color: rgb(246, 244, 244);
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 200px;
+
+}
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+  }
+  
+  #form p {
+    text-align: center;
+  }
+  
+  #form label {
+    font-size: 20px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: grey;
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  }
+
+form.estrellas{
+
+    padding: 0px;
+    margin: 10px;
+}
