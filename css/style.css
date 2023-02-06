@@ -96,10 +96,13 @@ a{
 
 }
 
-footer{
-  grid-column: 11 / 12;
-  padding: 5rem 1rem;
+.titulo{
+  position: static;
+}
 
+
+footer{
+  margin-bottom: -350px;
 }
 
 #form {
