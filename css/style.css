@@ -96,6 +96,12 @@ a{
 
 }
 
+footer{
+  grid-column: 11 / 12;
+  padding: 5rem 1rem;
+
+}
+
 #form {
     width: 250px;
     margin: 0 auto;

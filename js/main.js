@@ -142,7 +142,7 @@ function nComentario(){
     }
 }
 
-    function myFunction() {
+function myFunction() {
         if(sum > 0){
             alert("Has pagado con exito!");
         }
