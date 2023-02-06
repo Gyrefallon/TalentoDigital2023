@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <script src="https://kit.fontawesome.com/cadd79f153.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="img/icon/logo.png">
+    <link rel="shortcut icon" href="../img/icon/logo.png">
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg navb" >
+  <nav class="navbar navbar-expand-lg navb sticky-top" >
     <div class="container-fluid">
         <div class="navbar-brand d-sm-block d-md-none">
             <img class="rounded" style="width: 45px" src="../img/icon/logo.png">
@@ -64,7 +64,7 @@
           <label for="encuesta">¿Que tan fácil es utlizar la página?</label>
           <div class="col-md-10">
             <input type="number" name="encuesta" id="numeros" placeholder="0" step="1" min="0" max="10" required>
-            <p id="texto">Favor escoger</p>
+            <p id="texto"></p>
           </div>
           <div class="col-md-12">
             <button type="submit" class="btn btn-outline-success" data-mdb-ripple-color="dark">Enviar</button>
@@ -72,7 +72,7 @@
         </form>
       </div>
       
-    <footer class="bg-dark text-center text-white">
+    <footer class="bg-dark text-center text-white position-static ">
         <!-- Grid container -->
         <div class="container p-4 pb-0">
           <!-- Section: Social media -->
