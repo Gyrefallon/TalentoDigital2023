@@ -129,4 +129,11 @@ $( function() {
           " - $" + $( "#slider-range" ).slider( "values", 1 ) );
       } );
 
-      
+      function myFunction() {
+        if(sum > 0){
+            alert("Has pagado con exito!");
+        }
+        else{
+            alert("No hay articulos en el carro")
+        }
+      }
