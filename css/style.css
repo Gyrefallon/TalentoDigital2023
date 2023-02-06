@@ -145,3 +145,6 @@ form.estrellas{
     padding: 0px;
     margin: 10px;
 }
+textarea{
+  resize: none;
+}
