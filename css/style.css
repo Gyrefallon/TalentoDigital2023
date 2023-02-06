@@ -159,3 +159,9 @@ div #carro{
 background-color: #f6931f;
 border: 0px;
 }
+#caja{
+    border-radius: 12px;
+}
+body{
+    padding-bottom: 220px;
+}
