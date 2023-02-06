@@ -145,3 +145,17 @@ form.estrellas{
     padding: 0px;
     margin: 10px;
 }
+div #carro{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+#Resumen{
+  color: #f6931f;
+  text-align: center;
+  padding: 1px 0px 20px 0px;
+
+}
+#Pagar{
+background-color: #f6931f;
+border: 0px;
+}
