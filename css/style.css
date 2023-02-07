@@ -82,8 +82,7 @@ a{
 
 .imagenproducto{
 
-    
-    padding: 40px 10px 20px 10px;
+  padding: 40px 10px 20px 10px;
 
 }
 
@@ -96,8 +95,36 @@ a{
 
 }
 
+.imagens{
+  height: 7rem;
+}
+
 .titulo{
-  position: static;
+  margin-bottom: 220px;
+}
+
+.navarimg{
+  width: 45px;
+}
+
+.escondido{
+  background-color: rgba(102, 201, 99, 0.768);
+}
+
+.centrado{
+  text-align: center;
+}
+.derecha{
+  text-align: right;
+}
+.rango{
+  border:0;
+  color:#f6931f;
+  font-weight:bold;
+}
+
+.foterdiv{
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 
